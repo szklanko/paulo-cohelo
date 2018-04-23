@@ -212,7 +212,7 @@ a {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 48px 90px;
-  background: url(/image/paper/ricepaper2.png), #fcfdff;
+  background: url(../image/paper/ricepaper2.png), #fcfdff;
   background-size: 400px;
   background-blend-mode: luminosity; }
   .awards__item {
