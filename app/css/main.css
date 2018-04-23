@@ -1,0 +1,315 @@
+*, *::before, *::after, h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  padding: 48px 48px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Open Sans', sans-serif;
+  background: #bd142b;
+  /* Old browsers */
+  background: url(http://api.thumbr.it/whitenoise-200x200.png?background=ffffff00&noise=dbdbdbd&density=60&opacity=10) 0px 0px/180px 180px, -webkit-radial-gradient(100% 1000px at 0% 0%, #f2442c 10%, #bd142b);
+  background: url(http://api.thumbr.it/whitenoise-200x200.png?background=ffffff00&noise=dbdbdbd&density=60&opacity=10) 0px 0px/180px 180px, -o-radial-gradient(100% 1000px at 0% 0%, #f2442c 10%, #bd142b);
+  background: url(http://api.thumbr.it/whitenoise-200x200.png?background=ffffff00&noise=dbdbdbd&density=60&opacity=10) 0px 0px/180px 180px, radial-gradient(100% 1000px at 0% 0%, #f2442c 10%, #bd142b);
+  background-blend-mode: lighten; }
+  body .serif {
+    font-family: 'Playfair Display SC', 'serif';
+    font-weight: 400; }
+  body .lato {
+    font-family: 'Lato', 'sans-serif';
+    font-weight: 700; }
+
+a {
+  text-decoration: none; }
+
+.header {
+  padding: 0px 24px;
+  width: 100%; }
+  .header__icon {
+    display: inline-block;
+    font-size: 48px;
+    line-height: 72px;
+    vertical-align: center;
+    font-family: 'Paytone One', sans-serif;
+    color: #fcfdff;
+    opacity: 0.6; }
+
+.nav {
+  display: block;
+  width: 700px;
+  float: right; }
+  .nav__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: flex-end;
+    -ms-flex-align: flex-end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .nav__list {
+    list-style-type: none; }
+  .nav__link {
+    display: inline-block;
+    line-height: 72px;
+    margin: 0 12px;
+    letter-spacing: 3px;
+    color: #fcfdff;
+    opacity: 0.6;
+    transition: opacity 0.2s ease; }
+    .nav__link:hover {
+      opacity: 1; }
+
+.hero {
+  padding-top: 72px;
+  clear: right;
+  position: relative;
+  width: 100%; }
+  .hero__image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; }
+  .hero__title {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f2442c;
+    opacity: 1;
+    letter-spacing: 5px;
+    word-spacing: 8px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 89%; }
+
+@media all and (max-width: 1200px) {
+  .header__icon {
+    display: none; }
+  .nav {
+    width: 100%; }
+  .hero__img {
+    margin: 24px auto 0px; } }
+
+.bio {
+  max-width: 1200px;
+  margin: 144px auto;
+  background: #fcfdff;
+  -webkit-box-shadow: 50px 50px 100px rgba(48, 48, 48, 0.445);
+  box-shadow: 50px 50px 100px rgba(48, 48, 48, 0.445); }
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+  padding-bottom: 48px; }
+  .intro__photo {
+    -webkit-box-flex: 1 1;
+    -moz-box-flex: 1 1;
+    -webkit-flex: 1 1;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    max-width: 450px;
+    margin-left: 50px;
+    margin-top: -72px;
+    margin-right: 20px;
+    -webkit-box-shadow: 15px 20px 100px -10px rgba(0, 0, 0, 0.363);
+    box-shadow: 15px 20px 100px -10px rgba(0, 0, 0, 0.363); }
+  .intro__img {
+    width: 100%;
+    max-width: 450px;
+    vertical-align: bottom;
+    border: 72px solid #ffffff; }
+
+.info {
+  -webkit-box-flex: 1 1;
+  -moz-box-flex: 1 1;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  max-width: 450px;
+  margin-left: 20px;
+  margin-right: 50px; }
+  .info__title1 {
+    margin-top: 12px;
+    color: #5ad6e9;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 24px;
+    line-height: 36px;
+    font-style: italic; }
+  .info__title2 {
+    color: transparent;
+    display: inline-block;
+    background: linear-gradient(to right, #f2442c, #bd142b);
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display SC', 'serif';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 24px; }
+  .info__paragraph {
+    font-size: 24px;
+    color: #5c5c5c;
+    line-height: 24px; }
+
+.btn {
+  margin-top: 48px;
+  letter-spacing: 6px;
+  color: #fcfdff;
+  font-size: 16px;
+  line-height: 24px;
+  width: 210px;
+  height: 72px;
+  border: none;
+  background: url(../image/marble.jpg), #5ad6e9;
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-position-x: 100px;
+  transition: all 0.8s ease-out; }
+  .btn:hover {
+    cursor: pointer;
+    background-size: 120%; }
+  .btn:active, .btn:focus {
+    outline: 0; }
+
+@media all and (max-width: 1000px) {
+  .intro__photo {
+    min-width: 390px;
+    margin-left: 50px;
+    margin-right: 50px; }
+  .info {
+    min-width: 390px;
+    margin-left: 50px;
+    margin-right: 50px; }
+    .info__title1 {
+      margin-top: 24px; }
+    .info__paragraph {
+      font-size: 16px;
+      color: #5c5c5c;
+      line-height: 24px; }
+  .btn--wide {
+    display: block;
+    margin: 30px auto 0;
+    width: 280px; } }
+
+.awards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 48px 90px;
+  background: url(/image/paper/ricepaper2.png), #fcfdff;
+  background-size: 400px;
+  background-blend-mode: luminosity; }
+  .awards__item {
+    max-width: 150px;
+    -webkit-box-flex: auto;
+    -moz-box-flex: auto;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto; }
+  .awards__svg {
+    width: 100%;
+    height: 100%;
+    fill: #f2442c; }
+
+.books {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  max-width: 1200px;
+  margin: 144px auto;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-around; }
+  .books__header, .quotes__header {
+    -webkit-box-flex: 1 1 100%;
+    -moz-box-flex: 1 1 100%;
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    color: #f2442c;
+    opacity: 1;
+    letter-spacing: 5px;
+    word-spacing: 8px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.26); }
+  .books__item {
+    -webkit-box-flex: 0 1 320px;
+    -moz-box-flex: 0 1 320px;
+    -webkit-flex: 0 1 320px;
+    -ms-flex: 0 1 320px;
+    flex: 0 1 320px;
+    margin-bottom: 48px;
+    height: 634px;
+    background: url(../image/books.jpg) #fcfdff;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 20px 20px 100px rgba(48, 48, 48, 0.473);
+    box-shadow: 20px 20px 100px rgba(48, 48, 48, 0.473);
+    transition: all 0.8s ease-out;
+    position: relative; }
+    .books__item:hover {
+      cursor: pointer;
+      transform: scale(1.03);
+      -webkit-box-shadow: 50px 40px 100px rgba(48, 48, 48, 0.644);
+      box-shadow: 50px 40px 100px rgba(48, 48, 48, 0.644); }
+    .books__item--bg-position1 {
+      background-position: -330px 0px; }
+    .books__item--bg-position2 {
+      background-position: 0px 0px; }
+    .books__item--bg-position3 {
+      background-position: -660px 0px; }
+  .books__text {
+    position: absolute;
+    text-align: center;
+    bottom: 72px;
+    left: 0;
+    right: 0;
+    color: #f2442c;
+    letter-spacing: 5px;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 900; }
+    .books__text--blue {
+      bottom: 36px;
+      color: #5ad6e9;
+      letter-spacing: 2px;
+      font-size: 24px;
+      font-family: 'Playfair Display SC'; }
+
+.quotes__wraper {
+  padding-right: 100px;
+  padding-top: 300px;
+  width: 70%;
+  height: 700px;
+  margin: 0 auto;
+  background: #5ad6e9 url(../image/quote1.jpg) no-repeat right 0px top -70px/auto 110%;
+  background-blend-mode: multiply;
+  position: relative; }
+
+.quotes__card {
+  width: 100%;
+  height: 100%;
+  background: #fcfdff; }
