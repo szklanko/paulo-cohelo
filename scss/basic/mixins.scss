@@ -1,0 +1,57 @@
+@import 'variables.scss';
+
+@mixin texture-background($ellipse-height){
+    background:
+        url(http://api.thumbr.it/whitenoise-200x200.png?background=ffffff00&noise=dbdbdbd&density=60&opacity=10) 0px 0px/180px 180px,
+        -webkit-radial-gradient(100% 1000px at 0% 0%, #f2442c 10%, #bd142b);
+    background:
+        url(http://api.thumbr.it/whitenoise-200x200.png?background=ffffff00&noise=dbdbdbd&density=60&opacity=10) 0px 0px/180px 180px,
+        -o-radial-gradient(100% 1000px at 0% 0%, #f2442c 10%, #bd142b);
+    background:
+        url(http://api.thumbr.it/whitenoise-200x200.png?background=ffffff00&noise=dbdbdbd&density=60&opacity=10) 0px 0px/180px 180px,
+        radial-gradient(100% 1000px at 0% 0%, #f2442c 10%, #bd142b);
+    background-blend-mode: lighten;
+};
+
+@mixin box-shadow($values) {
+    -webkit-box-shadow: $values;
+            box-shadow: $values;
+};
+
+@mixin box-shadow($values) {
+    -webkit-box-shadow: $values;
+            box-shadow: $values;
+};
+
+
+@mixin display-flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+};
+
+@mixin align-items($align) {
+    -webkit-box-align: $align;
+            -ms-flex-align: $align;
+                align-items: $align;
+};
+
+@mixin align-content($value){
+    -ms-flex-line-pack: $value;
+    align-content: $value;
+}
+
+@mixin flex-flow($flow) {
+    -webkit-flex-flow: $flow;
+       -moz-flex-flow: $flow;
+        -ms-flex-flow: $flow;
+            flex-flow: $flow;
+};
+
+@mixin flex($values) {
+    -webkit-box-flex: $values;
+       -moz-box-flex: $values;
+        -webkit-flex: $values;
+          -ms-flex: $values;
+              flex: $values;
+};

@@ -1,0 +1,49 @@
+//KOLORY
+
+$primary-color:#bd142b;
+
+$background-gradient: #f2442c;
+
+$accent-color: #5ad6e9;
+
+$card-color: #fcfdff;
+
+$text-background: #ffffff;
+
+$bright-font:#fcfdff; 
+
+$dark-font: #5c5c5c;
+
+//RYTM
+
+$font-10: 10px;
+
+$font-size: 16px; 
+$line-height: 24px;
+
+$quarter-font: ($font-size / 4);    //4px    
+$quarter-rhytm: ($line-height / 4); //6px
+
+$half-font: ($font-size / 2);       //8px
+$half-rhytm: ($line-height / 2);    //12px
+
+$one-font: ($font-size);            //16px
+$one-rhytm: ($line-height);         //24px
+
+$three-halfs-font: ($font-size * 1.5);      //24px
+$three-halfs-rhytm: ($line-height * 1.5);   //36px
+
+$two-font: ($font-size * 2);        //32px
+$two-rhytm: ($line-height * 2);     //48px
+
+$three-font: ($font-size * 3);      //48px
+$three-rhytm: ($line-height * 3);   //72px
+
+$six-rhytm: ($line-height * 6);
+
+
+
+
+$photo-width: 450px;
+$photo-border: 72px;
+
